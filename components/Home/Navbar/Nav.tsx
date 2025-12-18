@@ -26,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
     <div
       className={`${
         navBg
-          ? "backdrop-blur-sm bg-white/20 dark:bg-black/20 shadow-lg shadow-black/5 dark:shadow-white/5"
+          ? "backdrop-blur-sm bg-white/70 dark:bg-black/20 shadow-lg shadow-black/5 dark:shadow-white/5"
           : "fixed"
       } transition-all duration-200 h-[74px] z-10000 fixed w-full`}
     >
@@ -70,9 +70,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex gap-5 items-center">
           {/* Button */}
           <Link href="/contact" className="hidden xl:block">
-            <button className="px-3.5 py-2 text-black dark:text-[#ffffffc3] dark:hover:text-white text-base transition-all duration-150 rounded-lg cursor-pointer bg-white dark:bg-[#121212] font-medium dark:font-normal shadow-none border-2 border-black dark:border-white/20 hover:drop-shadow-[0px_0px_0px_rgba(0,0,0,1)] dark:shadow-none shadow-[#bebebe] drop-shadow-[-2px_2px_0px_rgba(0,0,0,1)]">
-              Contact Us
-            </button>
+            <MyButton>Contact Us</MyButton>
           </Link>
 
           {/* Theme Toggler */}
@@ -82,9 +80,7 @@ const Nav = ({ openNav }: Props) => {
           <HiBars3BottomRight
             onClick={openNav}
             className={`w-8 h-8 cursor-pointer ${
-              navBg
-                ? "text-[#252525] dark:text-white"
-                : "text-black dark:text-white"
+              navBg ? "text-[#252525]" : "text-black"
             } lg:hidden`}
           />
         </div>

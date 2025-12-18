@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="pt-10 pb-16 bg-white dark:bg-black ">
+    <div className="pt-10 pb-16 bg-white ">
       {/* <div className="absolute h-full w-full dark:grayscale-100 dark:invert bg-[url('/images/industries-bg.jpg')] bg-cover bg-center bg-no-repeat" /> */}
       {/* <div className="absolute inset-0 bg-[#0486ff] mix-blend-screen pointer-events-none dark:hidden" /> */}
       {/* <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(50%_50%_at_50%_50%,#fff0_0%,#fff_100%)] dark:bg-[radial-gradient(50%_50%_at_50%_50%,#0000_0%,#000_100%)] z-1"></div> */}

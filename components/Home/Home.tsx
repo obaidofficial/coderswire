@@ -19,14 +19,14 @@ const Home = () => {
       <About />
       {/* <MapSection /> */}
       {/* <Models /> */}
-      {/* <Services /> */}
+      <Services />
       {/* <SiteRatings /> */}
       {/* <TechnologiesTabsDark /> */}
       {/* <CaseStudies /> */}
       <Industries />
       {/* <Technologies /> */}
       {/* <ExpertSolutions /> */}
-      {/* <TeamCards /> */}
+      <TeamCards />
     </div>
   );
 };
