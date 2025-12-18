@@ -43,11 +43,11 @@ const TabsComponents = ({ items }) => {
                 <div className="text-[#252525] dark:text-white pb-2 font-bold text-[23px] lg:text-[26px]">
                   {item.title}
                 </div>
-                <div className="text-[#252525] dark:text-white pb-4 text-[13px]">
+                <div className="text-[#252525] dark:text-white pb-4 text-[14px]">
                   {item.content}
                 </div>
                 <Link href={item.url}>
-                  <MyButton>Explore More</MyButton>
+                  <MyButton>Read More</MyButton>
                 </Link>
               </div>
             ))}
