@@ -1,0 +1,63 @@
+import MyButton from "@/components/Helper/MyButton";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+const Banner = () => {
+  return (
+    <div className="relative w-full h-[500px] bg-white dark:bg-black">
+      {/* Overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('/images/waves.jpg')] bg-center bg-cover bg-no-repeat dark:invert opacity-30"></div>
+      {/* Blue overlay that affects dark pixels */}
+      <div className="absolute inset-0 bg-[#0486ff] mix-blend-screen pointer-events-none dark:hidden" />
+      <div className="w-full h-full">
+        <div className="relative z-4 flex items-center justify-end flex-col w-full h-full">
+          <div className="md:w-[88%] w-[92%]">
+            <div className="grid grid-cols-1 lg:grid-cols-9 gap-2">
+              <div className="lg:col-span-4 flex justify-center flex-col w-full h-full">
+                <p className="breadCrumb flex items-center gap-3 mb-2">
+                  <Link href="/">
+                    <span className="text-[#0486ff]">Home </span>
+                  </Link>{" "}
+                  <ArrowRightIcon className="w-3 h-3" /> <span>About</span>
+                </p>
+                <h1 className="text-[28px] mb-4 md:mb-3 text-left lg:text-[56px] leading-[1.1em] tracking-[-3px] text-[#121212] dark:text-white font-medium uppercase">
+                  ABOUT{" "}
+                  <span className="italic text-[#0486ff] font-medium">
+                    Coders Wire
+                  </span>
+                </h1>
+                <p className="text-[14px] mb-4 md:mb-6 w-full text-left lg:text-[20px] leading-[1.3em] text-[#121212] dark:text-white font-light">
+                  Looking for a tech partner you can trust? We offer bespoke
+                  cutting-edge software development and global IT outsourcing.
+                  With our next-gen app development offerings, we simplify
+                  business complexities so you can focus on running your
+                  business.
+                </p>
+
+                {/* Button */}
+                <Link href="/contact">
+                  <button className="px-3.5 py-2 text-black dark:text-[#ffffffc3] dark:hover:text-white text-base transition-all duration-150 rounded-lg cursor-pointer bg-white dark:bg-[#121212] font-medium dark:font-normal shadow-none border-2 border-black dark:border-white/20 hover:drop-shadow-[0px_0px_0px_rgba(0,0,0,1)] dark:shadow-none shadow-[#bebebe] drop-shadow-[-2px_2px_0px_rgba(0,0,0,1)]">
+                    Contact Coders Wire
+                  </button>
+                </Link>
+              </div>
+
+              <div className="lg:col-span-5 flex justify-evenly">
+                <Image
+                  src="/images/abt-banner.webp"
+                  alt="About Banner Team"
+                  width={650}
+                  height={650}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
