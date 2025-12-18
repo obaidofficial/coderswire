@@ -26,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
     <div
       className={`${
         navBg
-          ? "backdrop-blur-sm bg-white/20 dark:bg-black/20 shadow-lg shadow-black/5 dark:shadow-white/5"
+          ? "backdrop-blur-sm bg-white/70 dark:bg-black/20 shadow-lg shadow-black/5 dark:shadow-white/5"
           : "fixed"
       } transition-all duration-200 h-[74px] z-10000 fixed w-full`}
     >

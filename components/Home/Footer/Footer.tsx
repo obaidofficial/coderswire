@@ -14,7 +14,7 @@ import { FiInstagram } from "react-icons/fi";
 const Footer = () => {
   return (
     <div className="bg-white dark:bg-[#12110e]">
-      <div className="pt-10 w-[94%] lg:w-[90%] mx-auto pb-2">
+      <div className="pt-6 w-[94%] lg:w-[90%] mx-auto pb-3">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-2">
           <div className="lg:col-span-1 py-2.5 px-4 ">
             <Clock timeZone="EST" locationName="Canada" />
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="text-[#00000040] mt-3 mb-6 dark:text-white/30" />
+        <hr className="text-[#00000020] mt-3 mb-6 dark:text-white/30" />
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-3 lg:gap-10">
           <div className="lg:col-span-1 p-1">
@@ -353,7 +353,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="text-[#00000040] dark:text-white/30 mt-4 mb-5" />
+        <hr className="text-[#00000020] dark:text-white/30 mt-4 mb-5" />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-10">
           <div className="lg:col-span-1 p-1">
@@ -432,7 +432,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="text-[#00000040] dark:text-white/30 mt-5 mb-0.5" />
+        <hr className="text-[#00000020] dark:text-white/30 mt-5 mb-0.5" />
 
         <div className="lg:grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-10 flex flex-col-reverse">
           <div className="lg:col-span-1 p-1">
