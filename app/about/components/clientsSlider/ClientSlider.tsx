@@ -31,42 +31,42 @@ const OutSourceModels = [
   {
     id: 1,
     image: "/images/clients/1.webp",
-    alt: "Software Development Outsourcing",
+    alt: "Tiles Paradise",
   },
   {
     id: 2,
     image: "/images/clients/2.webp",
-    alt: "Software Development Outsourcing",
+    alt: "Pristine Packaging",
   },
   {
     id: 3,
     image: "/images/clients/3.webp",
-    alt: "Software Development Outsourcing",
+    alt: "Dina Melwani",
   },
   {
     id: 4,
     image: "/images/clients/4.webp",
-    alt: "Software Development Outsourcing",
+    alt: "D'Lashes",
   },
   {
     id: 5,
     image: "/images/clients/5.webp",
-    alt: "Software Development Outsourcing",
+    alt: "Lucy Darling",
   },
   {
     id: 6,
     image: "/images/clients/6.webp",
-    alt: "Software Development Outsourcing",
+    alt: "RYP",
   },
   {
     id: 7,
     image: "/images/clients/7.webp",
-    alt: "Software Development Outsourcing",
+    alt: "Office Technology Solutions",
   },
   {
     id: 8,
     image: "/images/clients/8.webp",
-    alt: "Software Development Outsourcing",
+    alt: "MK Printing Ads",
   },
 ];
 
