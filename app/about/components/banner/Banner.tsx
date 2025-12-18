@@ -49,6 +49,7 @@ const Banner = () => {
                     alt="About Banner Team"
                     width={650}
                     height={650}
+                    className="z-10"
                   />
                 </div>
               </div>
