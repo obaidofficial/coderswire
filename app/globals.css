@@ -2,6 +2,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Obaid's CSS */
+:root {
+  --check-marker: "✔";
+}
+
 /* Nav Menu Hover Effect */
 .hoverNav:after {
   content: "";

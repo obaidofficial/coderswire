@@ -27,7 +27,7 @@ const responsive = {
   },
 };
 
-const OutSourceModels = [
+const ClientsLogos = [
   {
     id: 1,
     image: "/images/clients/1.webp",
@@ -106,7 +106,7 @@ const ClientSlider = () => {
           //   dotListClass="custom-dot-list-style"
           //   itemClass="carousel-item-padding-40-px"
         >
-          {OutSourceModels.map((data) => {
+          {ClientsLogos.map((data) => {
             return <ClientSliderCard key={data.id} data={data} />;
           })}
         </Carousel>
