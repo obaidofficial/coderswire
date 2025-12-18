@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="pt-10 pb-16 bg-white ">
-      {/* <div className="absolute h-full w-full dark:grayscale-100 dark:invert bg-[url('/images/industries-bg.jpg')] bg-cover bg-center bg-no-repeat" /> */}
+      {/* <div className="absolute h-full w-full bg-[url('/images/industries-bg.jpg')] bg-cover bg-center bg-no-repeat" /> */}
       {/* <div className="absolute inset-0 bg-[#0486ff] mix-blend-screen pointer-events-none dark:hidden" /> */}
       {/* <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(50%_50%_at_50%_50%,#fff0_0%,#fff_100%)] dark:bg-[radial-gradient(50%_50%_at_50%_50%,#0000_0%,#000_100%)] z-1"></div> */}
 
@@ -14,22 +14,22 @@ const About = () => {
         muted
         loop
         preload="metadata"
-        className="w-full h-full object-contain invert dark:invert-0 grayscale-100 dark:grayscale-0 relative"
+        className="w-full h-full object-contain invert grayscale-100 relative"
       /> */}
 
       {/* Blue overlay that affects dark pixels */}
-      {/* <div className="absolute inset-0 bg-[#0486ff] mix-blend-screen pointer-events-none dark:hidden" /> */}
+      {/* <div className="absolute inset-0 bg-[#0486ff] mix-blend-screen pointer-events-none" /> */}
 
       <div className="z-100 w-full h-full">
         <div className="flex items-center justify-center flex-col w-full h-full">
           <div className="w-[92%] lg:w-[88%] mx-auto text-center">
-            <h2 className="text-left text-[26px] mb-4 md:mb-3 md:text-[28px] lg:text-[60px] leading-[1.2em] text-[#252525] dark:text-white font-normal uppercase">
+            <h2 className="text-left text-[26px] mb-4 md:mb-3 md:text-[28px] lg:text-[56px] leading-[1.2em] text-[#252525] font-normal uppercase">
               About{" "}
               <span className="italic text-[#0486ff] font-medium">
                 Coders Wire
               </span>
             </h2>
-            <p className="text-[16px] md:text-[24px] lg:text-[2.3vw] mb-4 md:mb-6 leading-[1.2em] tracking-[0.2px] text-[#252525] dark:text-[#ffffffc3] font-light text-left">
+            <p className="text-[16px] md:text-[24px] lg:text-[2.1vw] mb-4 md:mb-6 leading-[1.2em] tracking-[0.2px] text-[#252525] font-light text-left">
               Access a global talent pool of top 3% coders at{" "}
               <span className="italic text-[#0486ff] font-normal">
                 Coders Wire

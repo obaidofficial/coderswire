@@ -4,16 +4,17 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Team from "./Team";
+import Link from "next/link";
 
 const responsive = {
   extraLarge: {
     breakpoint: { max: 4000, min: 1800 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1, // optional, default to 1.
   },
   desktop: {
     breakpoint: { max: 1800, min: 1324 },
-    items: 2,
+    items: 3,
     slidesToSlide: 1, // optional, default to 1.
   },
   tablet: {
@@ -172,24 +173,26 @@ const teamMembers = [
 
 const TeamCards = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#252525] half">
-      <div className="w-[88%] mx-auto grid grid-cols-1 lg:grid-cols-11 gap-10">
-        <div className="lg:col-span-4 flex flex-col justify-evenly">
-          <div>
-            <h3 className="text-[24px] mb-4 md:mb-3 md:text-[28px] lg:text-[30px] leading-[1.2em] text-[#ffffff] font-semibold">
+    <div className="pt-16 pb-16 bg-white">
+      <div className="w-[88%] mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+          <div className="col-span-4">
+            <h2 className="text-[24px] mb-4 md:mb-3 md:text-[28px] lg:text-[40px] leading-[1.2em] text-black font-normal uppercase">
               Our Network of Talent Pool
-            </h3>
-            <p className="text-[14px] font-light mb-4 md:mb-6 lg:text-[15px] leading-[1.6em] tracking-[0.2px] text-[#ffffff] font-regular">
+            </h2>
+            <p className="text-[14px] mb-4 md:mb-6 md:text-[16px] lg:text-[20px] leading-[1.2em] tracking-[0.2px] text-black font-light">
               At CodersWire, we have a diverse talent network comprising skilled
               developers, designers, project managers, and product managers,
               ensuring comprehensive expertise for your project's success
             </p>
           </div>
-          <div>
-            <MyButton>Hire Developers Now</MyButton>
+          <div className="col-span-1 flex items-center justify-end">
+            <Link href="#">
+              <MyButton>Hire Developers Now</MyButton>
+            </Link>
           </div>
         </div>
-        <div className="lg:col-span-7">
+        <div className="">
           <Carousel
             // swipeable={true}
             // draggable={true}
