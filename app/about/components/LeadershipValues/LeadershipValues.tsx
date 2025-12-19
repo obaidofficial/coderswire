@@ -10,10 +10,6 @@ const LeadershipValues = () => {
           <h2 className="text-[24px] mb-4 md:mb-3 md:text-[28px] text-center lg:text-[40px] leading-[1.2em] text-[#252525] dark:text-white font-normal uppercase">
             What our Leadership Says
           </h2>
-          <p className="text-[14px] mx-auto text-center w-[700px] mb-4 md:mb-6 md:text-[16px] lg:text-[20px] leading-[1.4em] tracking-[0.2px] text-[#252525] font-light">
-            Discover our competitive developer engagement rates, designed to
-            match your project's scope and budget.
-          </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mx-auto w-[1260px] pt-8">
           <div className="col-span-2 flex flex-col justify-center">
