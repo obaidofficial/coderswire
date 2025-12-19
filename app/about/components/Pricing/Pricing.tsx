@@ -9,11 +9,11 @@ const Pricing = () => {
         {/* Text Content */}
         <div>
           <h2 className="text-[24px] mb-4 md:mb-3 md:text-[28px] text-center lg:text-[40px] leading-[1.2em] text-[#252525] dark:text-white font-normal uppercase">
-            Our Pricing Models
+            Hire Offshore Developers or Dedicated Teams
           </h2>
           <p className="text-[14px] mx-auto text-center w-[700px] mb-4 md:mb-6 md:text-[16px] lg:text-[20px] leading-[1.4em] tracking-[0.2px] text-[#252525] font-light">
-            Discover our competitive developer engagement rates, designed to
-            match your project's scope and budget.
+            Swiftly onboard junior to senior offshore developers and dedicated
+            teams, perfectly suited to elevate your project
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 w-[1000px] mx-auto">
