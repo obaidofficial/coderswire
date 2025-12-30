@@ -23,7 +23,7 @@ const HourlyPricing = () => {
             </p>
             <h4 className="text-[14px] md:text-[16px] lg:text-[44px] leading-[1.2em] text-black font-extrabold">
               $ 20 ~ 80
-              <span className="text-[18px] text-[#505050] font-normal">
+              <span className="text-[18px] text-[#505050] font-normal leading-[1.2em]">
                 {" "}
                 /hour
               </span>
