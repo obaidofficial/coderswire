@@ -19,44 +19,44 @@ import { FiInstagram } from "react-icons/fi";
 
 const ContactFormSection = () => {
   return (
-    <div className="pb-16 pt-16 bg-[#f4faff]">
+    <div className="pb-8 pt-8 lg:pb-16 lg:pt-16 bg-[#f4faff]">
       <div className="w-[92%] lg:w-[88%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mx-auto pt-8">
           <div className="col-span-2">
-            <h2 className="text-[24px] mb-2 md:text-[28px] lg:text-[40px] leading-[1.2em] text-[#252525] dark:text-white font-normal uppercase">
+            <h2 className="text-[26px] mb-2 md:text-[28px] lg:text-[40px] leading-[1.2em] text-[#252525] dark:text-white font-normal uppercase">
               Contact Info
             </h2>
 
             <div className="grid grid-cols-1 gap-2 my-2">
-              <div className="py-3 pr-4 px-3">
-                <h4 className="text-[24px] mb-4 md:text-[28px] lg:text-[26px] leading-[1.2em] text-[#252525] dark:text-white font-medium">
+              <div className="py-1 px-1 lg:py-3 lg:px-3">
+                <h4 className="text-[22px] mb-4 md:text-[28px] lg:text-[26px] leading-[1.2em] text-[#252525] dark:text-white font-medium">
                   Head Office
                 </h4>
                 <div className="w-[96%] lg:w-[96%] grid grid-cols-12 mb-3">
-                  <div className="lg:col-span-1 flex items-center justify-center">
+                  <div className="col-span-2 lg:col-span-1 flex items-center justify-center">
                     <MapPinIcon
                       width={25}
                       height={25}
                       className="text-[#0486ff]"
                     />
                   </div>
-                  <div className="col-span-11 text-left flex items-center">
-                    <p className="text-md text-black font-light text-[20px]">
+                  <div className="col-span-10 lg:col-span-11 text-left flex items-center">
+                    <p className="text-md text-black font-light text-[15px] lg:text-[20px]">
                       2320 Richard road, Cedar Falls, Iowa
                     </p>
                   </div>
                 </div>
 
                 <div className="w-[96%] lg:w-[96%] grid grid-cols-12 mb-3">
-                  <div className="lg:col-span-1 flex items-center justify-center">
+                  <div className="col-span-2 lg:col-span-1 flex items-center justify-center">
                     <PhoneIcon
                       width={25}
                       height={25}
                       className="text-[#0486ff]"
                     />
                   </div>
-                  <div className="col-span-11 text-left flex items-center">
-                    <p className="text-md text-black font-light text-[20px]">
+                  <div className="col-span-10 lg:col-span-11 text-left flex items-center">
+                    <p className="text-md text-black font-light text-[15px] lg:text-[20px]">
                       (267) 356-7409
                     </p>
                   </div>
@@ -71,7 +71,7 @@ const ContactFormSection = () => {
                     />
                   </div>
                   <div className="col-span-11 text-left flex items-center">
-                    <p className="text-md text-black font-light text-[20px]">
+                    <p className="text-md text-black font-light text-[15px] lg:text-[20px]">
                       info@coderswire.com
                     </p>
                   </div>
@@ -93,7 +93,7 @@ const ContactFormSection = () => {
                     />
                   </div>
                   <div className="col-span-11 text-left flex items-center">
-                    <p className="text-md text-black font-light text-[18px]">
+                    <p className="text-md text-black font-light text-[16px] lg:text-[18px]">
                       107-536, Ivings Drive, Port Elgin, N0H2C1, Ontario, Canada
                     </p>
                   </div>
